@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  function calcular(){
+      //Accedo a los valores
+      var hora = document.getElementById("id_hora").value;
+      var min = document.getElementById("id_minutos").value;
+      var seg = document.getElementById("id_segundos").value;
+      //Realizamos el cálculo
+      var solucion =hora * 3600 + min * 60 + seg;
+      //Mostramos la solución
+      document.getElementById(*id_salida").value = solution;
+  }
+  </script>
+
+  <form>
+  Hora: <imput type="number" id=id_hora"><br>
+    Minutos: <imput type="number" id=id_minutos"><br>
+        Segundos: <imput type="number" id=id_segundos"><br>
+        <imput type="button" value="calcular"onclick="calcular"()>
+        <br>
+        Han transcurrido<imput type="text" id="id_salida" readonly>Segundos
+    
+	
